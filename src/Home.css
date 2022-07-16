@@ -1,0 +1,51 @@
+/* --------------------- Geral -------------------- */
+
+#container {
+    width: 95%;
+    background: rgba(26, 38, 54, 0.8);
+    color: #fff;
+    margin: 20px auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(162, 201, 194);
+}
+
+h2 {
+    color: #3defce;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+/* ------------- Header ------------------ */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#perfil-content{
+    width: 33%;
+    text-align: center;
+}
+
+#perfil {
+    width: 200px;
+    border-radius: 200px;
+    border: 4px solid #0d6253;
+}
+
+#skills {
+    width: 67%;
+    text-align: center;
+}
+
+#allSkills {
+    display: flex;
+    justify-content: space-evenly;
+}

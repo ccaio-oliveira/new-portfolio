@@ -1,0 +1,27 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+li #eua {
+    width: 25px;
+}
+
+li a {
+    text-decoration: none;
+    background: #0d6253;
+    padding: 10px 20px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
