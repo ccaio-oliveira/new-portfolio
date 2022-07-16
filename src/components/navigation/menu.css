@@ -25,3 +25,7 @@ li a {
     border-radius: 10px;
     color: #fff;
 }
+
+li a:hover {
+    color: #3defce;
+}
