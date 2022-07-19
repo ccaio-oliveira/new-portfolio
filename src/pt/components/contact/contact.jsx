@@ -4,7 +4,7 @@ const Contact = () => {
 
     return(
         <div id="contact">
-            <h1>Contact me</h1>
+            <h1>Meus contatos</h1>
             <div className="buttons">
 
                 <a href="https://www.likedin.com/in/ccaiooliveira82" rel="noopener noreferrer" target="_blank" title="Linkedin">
