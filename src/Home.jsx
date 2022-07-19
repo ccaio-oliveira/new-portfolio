@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import './home-mobile.css';
 import Menu from './components/navigation/menu';
 import Content from './components/content/content';
 import { BrowserRouter as Router } from 'react-router-dom';

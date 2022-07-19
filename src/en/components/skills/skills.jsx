@@ -30,7 +30,7 @@ const Skills = () => {
                 </div>
                 <div id="database">
 
-                    <h2>Banco de dados</h2>
+                    <h2>Databases</h2>
                     <p><i className="fa-solid fa-database"></i> MySQL</p>
                 </div>
             </div>

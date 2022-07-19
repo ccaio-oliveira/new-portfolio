@@ -28,4 +28,16 @@ li a {
 
 li a:hover {
     color: #3defce;
+    box-shadow: 0px 0px 10px #3defce;
+}
+
+@media (max-width: 400px){
+
+    span {
+        display: none;
+    }
+
+    li a {
+        background: none;
+    }
 }

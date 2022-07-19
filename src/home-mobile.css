@@ -1,0 +1,40 @@
+@media (max-width: 960px){
+    body {
+        text-align: center;
+    }
+
+    header {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    #perfil-content{
+        width: 100%;
+    }
+
+    #skills {
+        width: 100%;
+    }
+
+    #allSkills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #allSkills div {
+        margin-right: 20px;
+    }
+
+    #about-contact {
+        flex-direction: column;
+    }
+
+    #about, #contact {
+        width: 100%;
+    }
+
+    #about p {
+        text-align: left;
+    }
+}
