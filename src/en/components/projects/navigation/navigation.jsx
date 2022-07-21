@@ -3,6 +3,7 @@ import ProjectReact from '../projectReact/projectReact';
 // import ProjectJs from  '../projectJs';
 
 const Navigation = ({change}) => {
+    console.log('render...');
     return (
         <nav>
             <ul>
@@ -23,4 +24,4 @@ const Navigation = ({change}) => {
     )
 }
 
-export default Navigation;
+export default React.memo(Navigation);

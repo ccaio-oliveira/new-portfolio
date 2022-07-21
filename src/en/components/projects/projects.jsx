@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import Navigation from './navigation/navigation';
 
 const Projects = () => {
 
     const [content, setContent] = useState('');
 
-    function changeContent(item){
+    const changeContent = useCallback(function(item){
         setContent(item);
-    }
+    }, [setContent]);
 
     return(
         <>
