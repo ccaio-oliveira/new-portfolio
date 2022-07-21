@@ -84,7 +84,8 @@ header {
     flex-wrap: wrap;
 }
 
-.buttons a {
+.buttons a, a, button {
+    border: none;
     margin-right: 10px;
     margin-bottom: 10px;
     text-decoration: none;
@@ -94,7 +95,40 @@ header {
     color: #fff;
 }
 
-.buttons a:hover {
+.buttons a:hover, a:hover, button:hover {
     color: #3defce;
     box-shadow: 0px 0px 10px #3defce;
+}
+
+/* ------------ Projects ----------------- */
+#projects{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#projects nav {
+    margin-top: 30px;
+}
+
+#project-content{
+    display: flex;
+    flex-wrap: wrap;
+    background: #0d6253;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+#project-content h2 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#project-content img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#project-content a{
+    border: 1px solid #fff;
 }

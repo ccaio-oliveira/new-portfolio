@@ -3,6 +3,7 @@ import Perfil from './components/perfil/perfil';
 import Skills from './components/skills/skills';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
+import Projects from './components/projects/projects';
 
 const HomeEn = () => {
     return (
@@ -15,6 +16,9 @@ const HomeEn = () => {
                 <section id="about-contact">
                     <About />
                     <Contact />
+                </section>
+                <section id="projects">
+                    <Projects />
                 </section>
             </main>
         </>

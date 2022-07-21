@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactButton from './contact_button/contact_button';
 
 const Contact = () => {
 
@@ -7,21 +8,11 @@ const Contact = () => {
             <h1>Meus contatos</h1>
             <div className="buttons">
 
-                <a href="https://www.likedin.com/in/ccaiooliveira82" rel="noopener noreferrer" target="_blank" title="Linkedin">
-                    <i className="fa-brands fa-linkedin"></i> Linkedin
-                </a>
-                <a href="https://www.instagram.com/ccaiooliveira27/" rel="noopener noreferrer" target="_blank" title="Instagram">
-                    <i className="fa-brands fa-instagram"></i> Instagram
-                </a>
-                <a href="https://github.com/Grindelwald27" rel="noopener noreferrer" target="_blank" title="GitHub">
-                    <i className="fa-brands fa-github"></i> GitHub
-                </a>
-                <a href="mailto:ccaio.oliveira83@gnail.com" rel="noopener noreferrer" target="_blank" title="E-mail">
-                    <i className="fa-solid fa-at"></i> E-mail
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=5574998059407" rel="noopener noreferrer" target="_blank" title="GitHub">
-                    <i className="fa-brands fa-whatsapp"></i> Whatsapp
-                </a>
+                <ContactButton href="https://www.likedin.com/in/ccaiooliveira82" title="Linkedin" classIcon="fa-brands fa-linkedin" item="LinkedIn" />
+                <ContactButton href="https://www.instagram.com/ccaiooliveira27/" title="Instagram" classIcon="fa-brands fa-instagram" item="Instagram" />
+                <ContactButton href="mailto:ccaio.oliveira83@gnail.com" title="E-mail" classIcon="fa-solid fa-at" item="E-mail" />
+                <ContactButton href="https://github.com/Grindelwald27" title="GitHub" classIcon="fa-brands fa-github" item="GitHub" />
+                <ContactButton href="https://api.whatsapp.com/send?phone=5574998059407" title="WhatsApp" classIcon="fa-brands fa-whatsapp" item="WhatsApp" />
 
             </div>
         </div>
