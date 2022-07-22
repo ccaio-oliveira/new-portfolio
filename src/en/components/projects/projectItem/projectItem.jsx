@@ -6,7 +6,7 @@ const ProjectItem = ({title, src, alt, href}) => {
             <h2>{title}</h2>
             <img src={src} alt={alt} />
             <br />
-            <a href={href} target="_blanck"><i className='fa-solid fa-code'></i> VISIT</a>
+            <a href={href} target="_blanck" className="project-button"><i className='fa-solid fa-code'></i> VISIT</a>
         </div>
     )
 }

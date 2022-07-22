@@ -5,6 +5,7 @@ const ProjectReact = () => {
     return(
         <>
             <ProjectItem title="Expenses Chart" src="./images/expenses-chart-component-main.png" alt="Expenses Chart" href="https://superlative-snickerdoodle-007a4f.netlify.app" />
+            <ProjectItem title="My Portfolio (still in development)" src="./images/portfolio.png" alt="Portfolio image" href="https://mydevelopernow.com" />
         </>
     )
 }
