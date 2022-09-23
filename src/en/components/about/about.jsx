@@ -11,8 +11,8 @@ const About = () => {
                 my life.
             </p>
             <p>
-                I specialize in HTML5, CSS3, Bootstrap, JavaScript. I also have knowledge in PHP,
-                MySQL, jQuery and React.JS.
+                I specialize in HTML5, CSS3, Bootstrap, JavaScript, jQuery and React.JS. I also have knowledge in PHP,
+                MySQL and WordPress with Elementor.
             </p>
         </div>
     )
