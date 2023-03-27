@@ -29,8 +29,8 @@ const Skills = () => {
                 </div>
                 <div id="other">
                     <h2>Outros</h2>
-                    <p><i class="fa-brands fa-wordpress"></i> WordPress</p>
-                    <p><i class="fa-brands fa-elementor"></i> Elementor</p>
+                    <p><i className="fa-brands fa-wordpress"></i> WordPress</p>
+                    <p><i className="fa-brands fa-elementor"></i> Elementor</p>
                 </div>
             </div>
 

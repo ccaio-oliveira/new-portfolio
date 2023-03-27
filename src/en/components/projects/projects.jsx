@@ -1,9 +1,10 @@
 import React, { useState, useCallback } from 'react';
 import Navigation from './navigation/navigation';
+import ProjectReact from './projectReact/projectReact';
 
 const Projects = () => {
 
-    const [content, setContent] = useState('');
+    const [content, setContent] = useState(<ProjectReact />);
 
     const changeContent = useCallback(function(item){
         setContent(item);

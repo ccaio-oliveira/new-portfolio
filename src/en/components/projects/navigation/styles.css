@@ -1,0 +1,5 @@
+.btnReact, .btnJavascript, .btnHtml, .btnPhp {
+    color: #fe8e22;
+    box-shadow: 0px 0px 10px #fe8e22;
+    background: rgba(0, 0, 0, 0.2);
+}
