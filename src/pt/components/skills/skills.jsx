@@ -19,9 +19,9 @@ const Skills = () => {
                 </div>
                 <div id="framework">
                     <h2>Frameworks</h2>
-                    <p><i className="fa-brands fa-bootstrap"></i> Bootstrap</p>
-                    <p><i className="fa-brands fa-react"></i> React.JS (estudando)</p>
-                    <p><i className="fa-brands fa-react"></i> React Native (estudando)</p>
+                    <p><i className="fa-brands fa-laravel"></i>Laravel</p>
+                    <p><i className="fa-brands fa-react"></i> ReactJS</p>
+                    <p><i className="fa-brands fa-react"></i> React Native</p>
                 </div>
                 <div id="database">
                     <h2>Banco de dados</h2>

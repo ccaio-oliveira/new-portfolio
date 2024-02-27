@@ -6,8 +6,9 @@ import HomeEn from '../../en/home_en';
 const Content = () => {
     return (
         <Routes>
+            <Route path="/" element={<HomeEn />} />
             <Route path="/home_en" element={<HomeEn />} />
-            <Route path="*" element={<HomePt />} />
+            <Route path="/home_pt" element={<HomePt />} />
         </Routes>
     )
 }
